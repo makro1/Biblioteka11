@@ -57,3 +57,14 @@ C:\Users\makros\Desktop\Biblioteka11\ElibraryManagment\ElibraryManagment\obj\Deb
 C:\Users\makros\Desktop\Biblioteka11\ElibraryManagment\ElibraryManagment\obj\Debug\ElibraryManagment.csproj.CopyComplete
 C:\Users\makros\Desktop\Biblioteka11\ElibraryManagment\ElibraryManagment\obj\Debug\ElibraryManagment.dll
 C:\Users\makros\Desktop\Biblioteka11\ElibraryManagment\ElibraryManagment\obj\Debug\ElibraryManagment.pdb
+C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\bin\ElibraryManagment.dll.config
+C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\bin\ElibraryManagment.dll
+C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\bin\ElibraryManagment.pdb
+C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\bin\Newtonsoft.Json.dll
+C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\bin\Newtonsoft.Json.xml
+C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\obj\Debug\ElibraryManagment.csprojAssemblyReference.cache
+C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\obj\Debug\ElibraryManagment.csproj.CopyComplete
+C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\obj\Debug\ElibraryManagment.dll
+C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\obj\Debug\ElibraryManagment.pdb
