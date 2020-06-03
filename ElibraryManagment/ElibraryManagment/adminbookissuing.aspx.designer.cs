@@ -11,7 +11,7 @@ namespace ElibraryManagment
 {
 
 
-    public partial class usersignup
+    public partial class adminbookissuing
     {
 
         /// <summary>
@@ -33,6 +33,15 @@ namespace ElibraryManagment
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
 
         /// <summary>
+        /// Kontrolka Button3.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button3;
+
+        /// <summary>
         /// Kontrolka TextBox3.
         /// </summary>
         /// <remarks>
@@ -51,13 +60,13 @@ namespace ElibraryManagment
         protected global::System.Web.UI.WebControls.TextBox TextBox4;
 
         /// <summary>
-        /// Kontrolka DropDownList1.
+        /// Kontrolka TextBox5.
         /// </summary>
         /// <remarks>
         /// Pole generowane automatycznie.
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.TextBox TextBox5;
 
         /// <summary>
         /// Kontrolka TextBox6.
@@ -69,48 +78,30 @@ namespace ElibraryManagment
         protected global::System.Web.UI.WebControls.TextBox TextBox6;
 
         /// <summary>
-        /// Kontrolka TextBox7.
+        /// Kontrolka Button1.
         /// </summary>
         /// <remarks>
         /// Pole generowane automatycznie.
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// Kontrolka TextBox5.
+        /// Kontrolka Button2.
         /// </summary>
         /// <remarks>
         /// Pole generowane automatycznie.
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
-        /// Kontrolka TextBox8.
+        /// Kontrolka GridView1.
         /// </summary>
         /// <remarks>
         /// Pole generowane automatycznie.
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
-
-        /// <summary>
-        /// Kontrolka TextBox9.
-        /// </summary>
-        /// <remarks>
-        /// Pole generowane automatycznie.
-        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9;
-
-        /// <summary>
-        /// Kontrolka Button3.
-        /// </summary>
-        /// <remarks>
-        /// Pole generowane automatycznie.
-        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }
