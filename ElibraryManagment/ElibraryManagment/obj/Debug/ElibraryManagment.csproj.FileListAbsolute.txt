@@ -117,3 +117,5 @@ C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryM
 C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\bin\roslyn\vbc.rsp
 C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\bin\roslyn\VBCSCompiler.exe
 C:\Users\ZIOMECZEK\Desktop\Biblioteka11\Biblioteka11\ElibraryManagment\ElibraryManagment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\makros\Desktop\Biblioteka11\ElibraryManagment\ElibraryManagment\bin\Newtonsoft.Json.dll
+C:\Users\makros\Desktop\Biblioteka11\ElibraryManagment\ElibraryManagment\bin\Newtonsoft.Json.xml
