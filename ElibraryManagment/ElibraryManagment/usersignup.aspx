@@ -128,10 +128,10 @@
 
                         <div class="row">
                             <div class="col-md-6">
-                                <label>User ID</label>
+                                <label>Member ID</label>
                                 <div class="form-group">
                                     <asp:TextBox class="form-control" ID="TextBox8" runat="server"
-                                        placeholder="User ID"></asp:TextBox>
+                                        placeholder="Member ID"></asp:TextBox>
                                 </div>
                             </div>
 
@@ -164,4 +164,5 @@
         </div>
     </div>
 
+    </div>
 </asp:Content>
