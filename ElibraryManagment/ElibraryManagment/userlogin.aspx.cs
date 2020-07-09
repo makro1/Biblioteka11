@@ -57,5 +57,10 @@ namespace ElibraryManagment
 
             // Response.Write("<script>alert('Sign Up Successful. Go to User Login to Login'); </script>");
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
