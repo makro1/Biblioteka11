@@ -35,7 +35,7 @@
                                     <div class="input-group">
                                     <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server"
                                         placeholder="ID"></asp:TextBox>
-                                    <asp:Button class="btn btn-dark" ID="Button3" runat="server" Text="Go" />
+                                    <asp:Button class="btn btn-primary" ID="Button3" runat="server" Text="Go" />
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@
 
                             <div class="col-4">
                                  <div class="form-group">
-                                    <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button2" runat="server" Text="Update" />
+                                    <asp:Button class="btn btn-warning btn-block btn-lg" ID="Button2" runat="server" Text="Update" />
                                  </div>                                  
                             </div>
 
