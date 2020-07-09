@@ -11,7 +11,60 @@ namespace ElibraryManagment
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                if (string.IsNullOrEmpty((string)Session["role"]))
+                {
+                    LinkButton1.Visible = true; // user login link button
+                    LinkButton2.Visible = true; // user sign up link button
 
+                    LinkButton3.Visible = false; // logout link button
+                    LinkButton7.Visible = false; // hello user link button
+
+                    LinkButton6.Visible = true; // admin login link button
+                    LinkButton11.Visible = false; // admin management button
+                    LinkButton12.Visible = false; // admin management button
+                    LinkButton8.Visible = false; // admin management button
+                    LinkButton9.Visible = false; // admin management button
+                    LinkButton10.Visible = false; // admin management button
+                }
+                else if(Session["role"].Equals("user"))
+                {
+                    LinkButton1.Visible = false; // user login link button
+                    LinkButton2.Visible = false; // user sign up link button
+
+                    LinkButton3.Visible = true; // logout link button
+                    LinkButton7.Visible = true; // hello user link button
+                    LinkButton7.Text = "Hello " + Session["username"].ToString();
+
+                    LinkButton6.Visible = true; // admin login link button
+                    LinkButton11.Visible = false; // admin management button
+                    LinkButton12.Visible = false; // admin management button
+                    LinkButton8.Visible = false; // admin management button
+                    LinkButton9.Visible = false; // admin management button
+                    LinkButton10.Visible = false; // admin management button
+                }
+                else if (Session["role"].Equals("admin"))
+                {
+                    LinkButton1.Visible = false; // user login link button
+                    LinkButton2.Visible = false; // user sign up link button
+
+                    LinkButton3.Visible = true; // logout link button
+                    LinkButton7.Visible = true; // hello user link button
+                    LinkButton7.Text = "Hello Admin ";
+
+                    LinkButton6.Visible = false; // admin login link button
+                    LinkButton11.Visible = true; // admin management button
+                    LinkButton12.Visible = true; // admin management button
+                    LinkButton8.Visible = true; // admin management button
+                    LinkButton9.Visible = true; // admin management button
+                    LinkButton10.Visible = true; // admin management button
+                }
+            }
+            catch(Exception ex)
+            {
+
+            }
         }
 
         protected void LinkButton6_Click(object sender, EventArgs e)
@@ -61,7 +114,23 @@ namespace ElibraryManagment
 
         protected void LinkButton3_Click(object sender, EventArgs e)
         {
-            Response.Redirect("usersignup.aspx");
+            Session["username"] = "";
+            Session["fullname"] = "";
+            Session["role"] = "";
+            Session["status"] = "";
+
+            LinkButton1.Visible = true; // user login link button
+            LinkButton2.Visible = true; // user sign up link button
+
+            LinkButton3.Visible = false; // logout link button
+            LinkButton7.Visible = false; // hello user link button
+
+            LinkButton6.Visible = true; // admin login link button
+            LinkButton11.Visible = false; // admin management button
+            LinkButton12.Visible = false; // admin management button
+            LinkButton8.Visible = false; // admin management button
+            LinkButton9.Visible = false; // admin management button
+            LinkButton10.Visible = false; // admin management button
         }
     }
 }

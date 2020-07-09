@@ -33,8 +33,13 @@ namespace ElibraryManagment
                 {
                     while (dr.Read())
                     {
-                        Response.Write("<script>alert('Welcome "+dr.GetValue(8).ToString()+"'); </script>");
+                        Response.Write("<script>alert('Login Successfull'); </script>");
+                        Session["username"] = dr.GetValue(8).ToString();
+                        Session["fullname"] = dr.GetValue(0).ToString();
+                        Session["role"] = "user";
+                        Session["status"] = dr.GetValue(10 ).ToString();
                     }
+                    Response.Redirect("homepage.aspx");
                 }
                 else
                 {

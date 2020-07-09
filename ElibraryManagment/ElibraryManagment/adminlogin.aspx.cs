@@ -32,8 +32,13 @@ namespace ElibraryManagment
                 {
                     while (dr.Read())
                     {
-                        Response.Write("<script>alert('Welcome " + dr.GetValue(0).ToString() + "'); </script>");
+                        // Response.Write("<script>alert('Welcome " + dr.GetValue(0).ToString() + "'); </script>");
+                        // Response.Write("<script>alert('Login Successfull'); </script>");
+                        Session["username"] = dr.GetValue(0).ToString();
+                        Session["fullname"] = dr.GetValue(2).ToString();
+                        Session["role"] = "admin";
                     }
+                    Response.Redirect("homepage.aspx");
                 }
                 else
                 {
