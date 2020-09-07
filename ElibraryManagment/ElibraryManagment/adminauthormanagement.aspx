@@ -35,7 +35,7 @@
                                     <div class="input-group">
                                     <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server"
                                         placeholder="ID"></asp:TextBox>
-                                    <asp:Button class="btn btn-primary" ID="Button3" runat="server" Text="Go" />
+                                    <asp:Button class="btn btn-primary" ID="Button3" runat="server" Text="Go" OnClick="Button3_Click" />
                                     </div>
                                 </div>
                             </div>
@@ -52,14 +52,14 @@
                         <div class="row">
                             <div class="col-4">
                                  <div class="form-group">
-                                    <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Add" />
+                                    <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Add" OnClick="Button1_Click" />
                                  </div>                                  
                             </div>
 
 
                             <div class="col-4">
                                  <div class="form-group">
-                                    <asp:Button class="btn btn-warning btn-block btn-lg" ID="Button2" runat="server" Text="Update" />
+                                    <asp:Button class="btn btn-warning btn-block btn-lg" ID="Button2" runat="server" Text="Update" OnClick="Button2_Click" />
                                  </div>                                  
                             </div>
 
@@ -67,7 +67,7 @@
 
                             <div class="col-4">
                                  <div class="form-group">
-                                    <asp:Button class="btn btn-danger btn-block btn-lg" ID="Button4" runat="server" Text="Delete" />
+                                    <asp:Button class="btn btn-danger btn-block btn-lg" ID="Button4" runat="server" Text="Delete" OnClick="Button4_Click" />
                                  </div>                                  
                             </div>
                         </div>
