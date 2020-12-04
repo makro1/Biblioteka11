@@ -87,13 +87,13 @@ namespace ElibraryManagment
         protected global::System.Web.UI.WebControls.TextBox TextBox4;
 
         /// <summary>
-        /// Kontrolka DropDownList4.
+        /// Kontrolka ListBox1.
         /// </summary>
         /// <remarks>
         /// Pole generowane automatycznie.
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox DropDownList4;
+        protected global::System.Web.UI.WebControls.ListBox ListBox1;
 
         /// <summary>
         /// Kontrolka TextBox11.
@@ -184,6 +184,15 @@ namespace ElibraryManagment
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button5;
+
+        /// <summary>
+        /// Kontrolka SqlDataSource1.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
 
         /// <summary>
         /// Kontrolka GridView1.

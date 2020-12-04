@@ -109,7 +109,7 @@ namespace ElibraryManagment
             }
             else
             {
-                Response.Write("<script>alert('Invalid Member ID'); </script>");
+                Response.Write("<script>alert('Invalid Member ID '); </script>");
             }
             
         }
