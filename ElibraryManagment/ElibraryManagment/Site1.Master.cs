@@ -112,6 +112,7 @@ namespace ElibraryManagment
             Response.Redirect("usersignup.aspx");
         }
 
+        //lougout button
         protected void LinkButton3_Click(object sender, EventArgs e)
         {
             Session["username"] = "";
@@ -131,6 +132,8 @@ namespace ElibraryManagment
             LinkButton8.Visible = false; // admin management button
             LinkButton9.Visible = false; // admin management button
             LinkButton10.Visible = false; // admin management button
+
+            Response.Redirect("homepage.aspx");
         }
     }
 }
