@@ -216,7 +216,7 @@ namespace ElibraryManagment
                     string[] genre = dt.Rows[0]["genre"].ToString().Trim().Split(',');
                     for (int i = 0; i < genre.Length; i++)
                     {
-                        for (int j = 0; i < ListBox1.Items.Count; i++)
+                        for (int j = 0; j < ListBox1.Items.Count; j++)
                         {
                             if (ListBox1.Items[j].ToString() == genre[i])
                             {

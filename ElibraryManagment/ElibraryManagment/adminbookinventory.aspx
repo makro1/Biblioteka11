@@ -138,10 +138,13 @@
 
                                     <asp:ListBox class="form-control" ID="ListBox1" runat="server" SelectionMode="Multiple">
 
-                                        <asp:ListItem Text="English" Value="English" />
-                                        <asp:ListItem Text="Polish" Value="Polish" />
-                                        <asp:ListItem Text="German" Value="German" />
-                                        <asp:ListItem Text="French" Value="French" />
+                                        <asp:ListItem Text="Action" Value="Action" />
+                                        <asp:ListItem Text="Adventure" Value="Adventure" />
+                                        <asp:ListItem Text="Comic book" Value="Comic book" />
+                                        <asp:ListItem Text="Motivation" Value="Motivation" />
+                                        <asp:ListItem Text="Fantasy" Value="Fantasy" />
+                                        <asp:ListItem Text="Sci-Fi" Value="Sci-Fi" />
+                                        <asp:ListItem Text="Thriller" Value="Thriller" />
                                     </asp:ListBox>
                                 </div>
                             </div>
