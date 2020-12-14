@@ -46,7 +46,7 @@
                                     <div class="input-group">
                                     <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server"
                                         placeholder="ID"></asp:TextBox>
-                                    <asp:Button class="btn btn-dark" ID="Button3" runat="server" Text="Go" />
+                                    <asp:Button class="btn btn-dark" ID="Button3" runat="server" Text="Go" OnClick="Button3_Click" />
                                     </div>
                                 </div>
                              </div>
@@ -74,7 +74,7 @@
 
                          <div class="row">
                             <div class="col-md-6">
-                                <label>Start Date</label>
+                                <label>Issue Date</label>
                                 <div class="form-group">
                                     <div class="input-group">
                                     <asp:TextBox CssClass="form-control" ID="TextBox5" runat="server"
@@ -95,14 +95,14 @@
                         <div class="row">
                             <div class="col-6">
                                  <div class="form-group">
-                                    <asp:Button class="btn btn-info btn-block btn-lg" ID="Button1" runat="server" Text="Issue" />
+                                    <asp:Button class="btn btn-info btn-block btn-lg" ID="Button1" runat="server" Text="Issue" OnClick="Button1_Click" />
                                  </div>                                  
                             </div>
 
 
                             <div class="col-6">
                                  <div class="form-group">
-                                    <asp:Button class="btn btn-success btn-block btn-lg" ID="Button2" runat="server" Text="Return" />
+                                    <asp:Button class="btn btn-success btn-block btn-lg" ID="Button2" runat="server" Text="Return" OnClick="Button2_Click" />
                                  </div>                                  
                             </div>
                           
@@ -139,9 +139,20 @@
                         </div>
 
                          <div class="row">
+                             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString='<%$ ConnectionStrings:elibraryDBConnectionString %>' SelectCommand="SELECT * FROM [book_issue_tbl]"></asp:SqlDataSource>
                             <div class="col">
-                                <asp:GridView AlternatingRowStyle-CssClass="table table-striped table-bordered" 
-                                    ID="GridView1" runat="server"></asp:GridView>
+                                <asp:GridView AlternatingRowStyle-CssClass="table table-striped table-bordered"
+                                    ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="member_id" DataSourceID="SqlDataSource1">
+<AlternatingRowStyle CssClass="table table-striped table-bordered"></AlternatingRowStyle>
+                                    <Columns>
+                                        <asp:BoundField DataField="member_id" HeaderText="Member ID" ReadOnly="True" SortExpression="member_id"></asp:BoundField>
+                                        <asp:BoundField DataField="member_name" HeaderText="Member name" SortExpression="member_name"></asp:BoundField>
+                                        <asp:BoundField DataField="book_id" HeaderText="Book ID" SortExpression="book_id"></asp:BoundField>
+                                        <asp:BoundField DataField="book_name" HeaderText="Book name" SortExpression="book_name"></asp:BoundField>
+                                        <asp:BoundField DataField="issue_date" HeaderText="Issue date" SortExpression="issue_date"></asp:BoundField>
+                                        <asp:BoundField DataField="due_date" HeaderText="Due date" SortExpression="due_date"></asp:BoundField>
+                                    </Columns>
+                                </asp:GridView>
                             </div>
                         </div>
 

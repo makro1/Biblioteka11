@@ -192,7 +192,7 @@ namespace ElibraryManagment
                 {
                     con.Open();
                 }
-                SqlCommand cmd = new SqlCommand("SELECT * FROM book_master_tbl WHERE book_id='"+TextBox1.Text.Trim()+"';", con);
+                SqlCommand cmd = new SqlCommand("SELECT * FROM book_master_tbl WHERE book_id='" + TextBox1.Text.Trim() + "';", con);
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);

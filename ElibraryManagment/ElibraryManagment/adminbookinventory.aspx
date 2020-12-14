@@ -145,6 +145,7 @@
                                         <asp:ListItem Text="Fantasy" Value="Fantasy" />
                                         <asp:ListItem Text="Sci-Fi" Value="Sci-Fi" />
                                         <asp:ListItem Text="Thriller" Value="Thriller" />
+                                        <asp:ListItem Text="Thriller2" Value="Thriller2" />
                                     </asp:ListBox>
                                 </div>
                             </div>
